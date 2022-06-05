@@ -1,4 +1,4 @@
-import { Flex, Image, useBreakpointValue, Box, List, ListIcon, ListItem, SimpleGrid } from "@chakra-ui/react";
+import { Flex, useBreakpointValue, SimpleGrid } from "@chakra-ui/react";
 import { Features } from "./features";
 
 export function HomeFeatures() {
