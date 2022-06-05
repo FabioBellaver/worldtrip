@@ -16,6 +16,7 @@ export function City({ countryImg, countryName, cityName, flag}: CityProps) {
             
         >
             <Image
+                borderTopRadius="4"
                 src={countryImg}
                 h="170px"
                 w="100%"

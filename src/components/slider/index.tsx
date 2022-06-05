@@ -34,18 +34,18 @@ export function Slider() {
                 </SwiperSlide>
                 <SwiperSlide>
                     <SliderItem
-                        heading="Europa"
-                        image="europe.jpg"
-                        text="O continente mais antigo."
-                        page="/continente/europa"
+                        heading="America do Norte"
+                        image="northamerica.jpg"
+                        text="O continente das oportunidades."
+                        page="/continente/americaDoNorte"
                     />
                 </SwiperSlide>
                 <SwiperSlide>
                     <SliderItem
-                        heading="Europa"
-                        image="europe.jpg"
-                        text="O continente mais antigo."
-                        page="/continente/europa"
+                        heading="America do Sul"
+                        image="southamerica.jpg"
+                        text="O continente mais diverso."
+                        page="/continente/americaDoSul"
                     />
                 </SwiperSlide>
 
