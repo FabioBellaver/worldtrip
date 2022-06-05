@@ -44,7 +44,7 @@ export function Header() {
                 )}
 
                 <Image
-                    src="worldtriplogo.svg"
+                    src="/worldtriplogo.svg"
                     alt="logo world trip"
                     justifySelf="center"
                     gridColumn={2}
