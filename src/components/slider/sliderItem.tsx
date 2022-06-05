@@ -10,6 +10,8 @@ interface SliderItemProps {
 
 export function SliderItem({heading, text, image, page}:SliderItemProps) {
     return (
+        
+
         <Flex
         w="100%"
         h="100%"

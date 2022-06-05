@@ -1,10 +1,16 @@
 import { Flex, Grid, Heading } from "@chakra-ui/react";
+import Head from "next/head";
 import { ContinentBanner } from "../../components/continentComponents/continentBanner";
 import { City } from "../../components/continentComponents/continentCity/city";
 import { ContinentContent } from "../../components/continentComponents/continentContent";
 
 export default function Europa() {
     return (
+        <>
+        <Head>
+        <title>Worldtrip | América do Norte</title>
+        </Head>
+
         <Flex direction="column" overflow="hidden" mb="20px">
             <ContinentBanner
                 banner="/northamericaPage.jpg"
@@ -72,5 +78,6 @@ export default function Europa() {
                 />
             </Grid>
         </Flex>
+        </>
     )
 }
